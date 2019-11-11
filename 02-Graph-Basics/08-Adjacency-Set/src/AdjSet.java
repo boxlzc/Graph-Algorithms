@@ -1,29 +1,29 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.TreeSet;
 
 /**
  * Create with Graph-Algorithms
  * User: XFour
  * Date: 2019/11/10
- * Time: 16:02
- * Description: 邻接表
+ * Time: 18:34
+ * Description: 邻接表（红黑树优化）
  */
-public class AdjList {
+public class AdjSet {
 
     //顶点个数
     private int V;
     //边数
     private int E;
     //邻接点集合
-    private LinkedList<Integer>[] adj;
+    private TreeSet<Integer>[] adj;
 
     /**
      * 构造函数，传入文件名称
      * @param fileName 文件名称
      */
-    public AdjList(String fileName) {
+    public AdjSet(String fileName) {
         File file = new File(fileName);
         try {
             Scanner scanner = new Scanner(file);
@@ -31,9 +31,9 @@ public class AdjList {
             if (V < 0) {
                 throw new IllegalArgumentException("V must be non-negative");
             }
-            adj = new LinkedList[V];
+            adj = new TreeSet[V];
             for (int i = 0; i < V; i++) {
-                adj[i] = new LinkedList<Integer>();
+                adj[i] = new TreeSet<Integer>();
             }
             E = scanner.nextInt();
             if (E < 0) {
@@ -89,7 +89,7 @@ public class AdjList {
      * @param v 顶点 v
      * @return 与顶点 v 邻接的所有顶点
      */
-    public LinkedList<Integer> adj(int v) {
+    public Iterable<Integer> adj(int v) {
         validateVertex(v);
         return adj[v];
     }
@@ -100,7 +100,8 @@ public class AdjList {
      * @return 顶点 v 的度
      */
     public int degree(int v) {
-        return adj(v).size();
+        validateVertex(v);
+        return adj[v].size();
     }
 
     /**
@@ -130,7 +131,7 @@ public class AdjList {
     }
 
     public static void main(String[] args) {
-        AdjList adjMatrix = new AdjList("02-Graph-Basics/04-Adjacency-List/g.txt");
+        AdjSet adjMatrix = new AdjSet("02-Graph-Basics/04-Adjacency-List/g.txt");
         System.out.println(adjMatrix);
     }
 

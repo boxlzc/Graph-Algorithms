@@ -5,17 +5,24 @@ import java.util.Scanner;
 
 /**
  * Create with Graph-Algorithms
- * User: 许清远
+ * User: XFour
  * Date: 2019/11/10
  * Time: 15:18
- * Description:
+ * Description: 邻接矩阵
  */
 public class AdjMatrix {
 
+    //顶点个数
     private int V;
+    //边数
     private int E;
+    //邻接矩阵
     private int[][] adj;
 
+    /**
+     * 构造函数，传入文件名称
+     * @param fileName 文件名称
+     */
     public AdjMatrix(String fileName) {
         File file = new File(fileName);
         try {
@@ -48,21 +55,37 @@ public class AdjMatrix {
         }
     }
 
+    /**
+     * 验证顶点的合法性
+     * @param v 顶点
+     */
     private void validateVertex(int v) {
         if (v < 0 || v >= V) {
             throw new IllegalArgumentException("vertex" + v + "is invalid");
         }
     }
 
+    /**
+     * 获取顶点个数
+     * @return 顶点个数
+     */
     public int V() {
         return V;
     }
 
+    /**
+     * 获取边的数量
+     * @return 边的数量
+     */
     public int E() {
         return E;
     }
 
-    //获取与传入顶点邻接的所有顶点
+    /**
+     * 获取与顶点 v 邻接的所有顶点
+     * @param v 顶点 v
+     * @return 与顶点 v 邻接的所有顶点
+     */
     public ArrayList<Integer> adj(int v) {
         validateVertex(v);
         ArrayList<Integer> res = new ArrayList<>();
@@ -74,11 +97,21 @@ public class AdjMatrix {
         return res;
     }
 
-    //获取传入顶点的度
+    /**
+     * 获取顶点 v 的度
+     * @param v 顶点 v
+     * @return 顶点 v 的度
+     */
     public int degree(int v) {
         return adj(v).size();
     }
 
+    /**
+     * 判断顶点 v 以及 w 之间是否存在一条边
+     * @param v 顶点 v
+     * @param w 顶点 w
+     * @return true 表示存在边，false 表示不存在
+     */
     public boolean hasEdge(int v, int w) {
         validateVertex(v);
         validateVertex(w);
