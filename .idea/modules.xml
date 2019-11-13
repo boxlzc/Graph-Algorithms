@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/04-Graph-DFS-Applications/04-Graph-DFS-Applications.iml" filepath="$PROJECT_DIR$/04-Graph-DFS-Applications/04-Graph-DFS-Applications.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-Graph-DFS/04-Graph-DFS-Implementation/04-Graph-DFS-Implementation.iml" filepath="$PROJECT_DIR$/03-Graph-DFS/04-Graph-DFS-Implementation/04-Graph-DFS-Implementation.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-Graph-DFS/05-Graph-DFS-Improvement/05-Graph-DFS-Improvement.iml" filepath="$PROJECT_DIR$/03-Graph-DFS/05-Graph-DFS-Improvement/05-Graph-DFS-Improvement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-Graph-DFS-Applications/05-Single-Source-Path/05-Single-Source-Path.iml" filepath="$PROJECT_DIR$/04-Graph-DFS-Applications/05-Single-Source-Path/05-Single-Source-Path.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-Graph-Basics/08-Adjacency-Set/08-Adjacency-Set.iml" filepath="$PROJECT_DIR$/02-Graph-Basics/08-Adjacency-Set/08-Adjacency-Set.iml" />
       <module fileurl="file://$PROJECT_DIR$/Graph-Algorithms.iml" filepath="$PROJECT_DIR$/Graph-Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/笔记/笔记.iml" filepath="$PROJECT_DIR$/笔记/笔记.iml" />
