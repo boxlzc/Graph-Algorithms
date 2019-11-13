@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/02-Graph-Basics/02-Graph-Basics.iml" filepath="$PROJECT_DIR$/02-Graph-Basics/02-Graph-Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-Graph-Basics/03-Adjacency-Matrix/03-Adjacency-Matrix.iml" filepath="$PROJECT_DIR$/02-Graph-Basics/03-Adjacency-Matrix/03-Adjacency-Matrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-Graph-DFS/03-Graph-DFS.iml" filepath="$PROJECT_DIR$/03-Graph-DFS/03-Graph-DFS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-Graph-DFS-Applications/03-More-about-Connected-Components/03-More-about-Connected-Components.iml" filepath="$PROJECT_DIR$/04-Graph-DFS-Applications/03-More-about-Connected-Components/03-More-about-Connected-Components.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-Graph-Basics/04-Adjacency-List/04-Adjacency-List.iml" filepath="$PROJECT_DIR$/02-Graph-Basics/04-Adjacency-List/04-Adjacency-List.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-Graph-DFS-Applications/04-Graph-DFS-Applications.iml" filepath="$PROJECT_DIR$/04-Graph-DFS-Applications/04-Graph-DFS-Applications.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-Graph-DFS/04-Graph-DFS-Implementation/04-Graph-DFS-Implementation.iml" filepath="$PROJECT_DIR$/03-Graph-DFS/04-Graph-DFS-Implementation/04-Graph-DFS-Implementation.iml" />
