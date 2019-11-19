@@ -101,8 +101,8 @@ public class SingleSourcePath {
     public static void main(String[] args) {
         Graph g = new Graph("03-Graph-DFS/05-Graph-DFS-Improvement/g.txt");
         SingleSourcePath singleSourcePath = new SingleSourcePath(g, 1);
-        Iterable<Integer> path = singleSourcePath.path(6);
-        System.out.println(path);
+        Iterable<Integer> path = singleSourcePath.path(2);
+        System.out.println("DFS 0->6 :" + path);
     }
 
 }
