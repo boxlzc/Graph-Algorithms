@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * Create with Graph-Algorithms
@@ -13,6 +15,34 @@ class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
+}
+
+class TreeBFS {
+
+    /**
+     * 保存结果的集合
+     */
+    private List<Integer> res = new ArrayList<>();
+
+    public List<Integer> bfs(TreeNode root) {
+        if (root == null) {
+            return res;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (queue.size() != 0) {
+            TreeNode node = queue.poll();
+            res.add(node.val);
+            if (node.left != null) {
+                queue.add(node.left);
+            }
+            if (node.right != null) {
+                queue.add(node.right);
+            }
+        }
+        return res;
+    }
+
 }
 
 public class TreeDFS {

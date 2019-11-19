@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/04-Graph-DFS-Applications/01-Connected-Components-Count/01-Connected-Components-Count.iml" filepath="$PROJECT_DIR$/04-Graph-DFS-Applications/01-Connected-Components-Count/01-Connected-Components-Count.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Graph-BFS/02-BFS/02-BFS.iml" filepath="$PROJECT_DIR$/05-Graph-BFS/02-BFS/02-BFS.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-Graph-DFS-Applications/02-Connected-Components/02-Connected-Components.iml" filepath="$PROJECT_DIR$/04-Graph-DFS-Applications/02-Connected-Components/02-Connected-Components.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-Graph-Basics/02-Graph-Basics.iml" filepath="$PROJECT_DIR$/02-Graph-Basics/02-Graph-Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-Graph-Basics/03-Adjacency-Matrix/03-Adjacency-Matrix.iml" filepath="$PROJECT_DIR$/02-Graph-Basics/03-Adjacency-Matrix/03-Adjacency-Matrix.iml" />
@@ -11,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/02-Graph-Basics/04-Adjacency-List/04-Adjacency-List.iml" filepath="$PROJECT_DIR$/02-Graph-Basics/04-Adjacency-List/04-Adjacency-List.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-Graph-DFS-Applications/04-Graph-DFS-Applications.iml" filepath="$PROJECT_DIR$/04-Graph-DFS-Applications/04-Graph-DFS-Applications.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-Graph-DFS/04-Graph-DFS-Implementation/04-Graph-DFS-Implementation.iml" filepath="$PROJECT_DIR$/03-Graph-DFS/04-Graph-DFS-Implementation/04-Graph-DFS-Implementation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Graph-BFS/05-Graph-BFS.iml" filepath="$PROJECT_DIR$/05-Graph-BFS/05-Graph-BFS.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-Graph-DFS/05-Graph-DFS-Improvement/05-Graph-DFS-Improvement.iml" filepath="$PROJECT_DIR$/03-Graph-DFS/05-Graph-DFS-Improvement/05-Graph-DFS-Improvement.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-Graph-DFS-Applications/05-Single-Source-Path/05-Single-Source-Path.iml" filepath="$PROJECT_DIR$/04-Graph-DFS-Applications/05-Single-Source-Path/05-Single-Source-Path.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-Graph-Basics/08-Adjacency-Set/08-Adjacency-Set.iml" filepath="$PROJECT_DIR$/02-Graph-Basics/08-Adjacency-Set/08-Adjacency-Set.iml" />
